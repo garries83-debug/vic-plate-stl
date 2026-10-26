@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400mm" height="160mm">
+  <title>VIC Plate Half-Join: Tongue &amp; Groove Profile (2mm deep, full 132mm height)</title>
+  <defs>
+    <style>
+      .dim { font-family: Arial, sans-serif; font-size: 3.5mm; fill: #333; }
+      .dim-line { stroke: #333; stroke-width: 0.3; fill: none; }
+      .label { font-family: Arial, sans-serif; font-size: 4mm; fill: #0066cc; font-weight: bold; }
+      .note { font-family: Arial, sans-serif; font-size: 3mm; fill: #666; }
+      .tongue { fill: #4a90d9; stroke: #1a3a5c; stroke-width: 0.4; }
+      .groove { fill: #e8e8e8; stroke: #1a3a5c; stroke-width: 0.4; }
+      .base { fill: #f5f5f5; stroke: #1a3a5c; stroke-width: 0.4; }
+      .arrow { stroke: #333; stroke-width: 0.3; fill: #333; }
+    </style>
+  </defs>
+  <g id="tongue-half">
+    <text x="20" y="12" class="label">TONGUE HALF</text>
+    <text x="20" y="17" class="note">Print face-up. Tongue protrudes 2mm toward join.</text>
+    <rect x="20" y="25" width="186" height="132" class="base"/>
+    <rect x="205" y="25" width="2" height="132" class="tongue"/>
+    <line x1="204" y1="25" x2="204" y2="157" class="dim-line"/>
+    <line x1="208" y1="25" x2="208" y2="157" class="dim-line"/>
+    <line x1="204" y1="91" x2="206" y2="89" class="arrow"/>
+    <line x1="204" y1="91" x2="206" y2="93" class="arrow"/>
+    <line x1="208" y1="91" x2="206" y2="89" class="arrow"/>
+    <line x1="208" y1="91" x2="206" y2="93" class="arrow"/>
+    <text x="216" y="94" class="dim">2mm</text>
+    <line x1="18" y1="25" x2="14" y2="25" class="dim-line"/>
+    <line x1="18" y1="157" x2="14" y2="157" class="dim-line"/>
+    <line x1="14" y1="25" x2="16" y2="27" class="arrow"/>
+    <line x1="14" y1="25" x2="16" y2="23" class="arrow"/>
+    <line x1="14" y1="157" x2="16" y2="155" class="arrow"/>
+    <line x1="14" y1="157" x2="16" y2="159" class="arrow"/>
+    <text x="5" y="95" class="dim" transform="rotate(-90 5 95)">132mm</text>
+    <line x1="20" y1="162" x2="206" y2="162" class="dim-line"/>
+    <line x1="20" y1="160" x2="20" y2="164" class="dim-line"/>
+    <line x1="206" y1="160" x2="206" y2="164" class="dim-line"/>
+    <text x="100" y="170" class="dim">186mm</text>
+    <line x1="206" y1="20" x2="206" y2="25" class="dim-line" stroke-dasharray="1,1"/>
+    <text x="206" y="18" class="note" text-anchor="middle">cut line</text>
+  </g>
+  <g id="groove-half" transform="translate(214, 0)">
+    <text x="20" y="12" class="label">GROOVE HALF</text>
+    <text x="20" y="17" class="note">Print face-up. Groove recessed 2mm from cut edge.</text>
+    <rect x="20" y="25" width="186" height="132" class="base"/>
+    <rect x="20.1" y="25" width="2.2" height="132" class="groove"/>
+    <line x1="19.5" y1="25" x2="19.5" y2="157" class="dim-line"/>
+    <line x1="23.5" y1="25" x2="23.5" y2="157" class="dim-line"/>
+    <line x1="19.5" y1="91" x2="21.5" y2="89" class="arrow"/>
+    <line x1="19.5" y1="91" x2="21.5" y2="93" class="arrow"/>
+    <line x1="23.5" y1="91" x2="21.5" y2="89" class="arrow"/>
+    <line x1="23.5" y1="91" x2="21.5" y2="93" class="arrow"/>
+    <text x="30" y="94" class="dim">2.2mm</text>
+    <line x1="20" y1="20" x2="20.1" y2="23" class="dim-line"/>
+    <text x="20" y="18" class="note" text-anchor="middle">0.1mm inset</text>
+    <line x1="20" y1="162" x2="206" y2="162" class="dim-line"/>
+    <line x1="20" y1="160" x2="20" y2="164" class="dim-line"/>
+    <line x1="206" y1="160" x2="206" y2="164" class="dim-line"/>
+    <text x="100" y="170" class="dim">186mm</text>
+    <line x1="20" y1="20" x2="20" y2="25" class="dim-line" stroke-dasharray="1,1"/>
+    <text x="20" y="18" class="note" text-anchor="middle">cut line</text>
+  </g>
+  <g id="notes">
+    <text x="20" y="185" class="note">Tongue: 2.0mm W x 132mm H. Groove: 2.2mm W x 132mm H (0.1mm total clearance, 0.05mm per side).</text>
+    <text x="20" y="191" class="note">Groove is 2.2mm to give 0.1mm total clearance for easy assembly; sand tongue faces lightly if too tight.</text>
+    <text x="20" y="197" class="note">After gluing, run a bead of CA along the seam from the back, then sand flush. PETG bonds well to PETG with epoxy too.</text>
+    <text x="20" y="203" class="note">Mounting holes: drill 6.5mm at standard VIC positions (~25mm in from each vertical edge, centered vertically) after assembly.</text>
+    <text x="20" y="209" class="note">Layer height 0.2mm, 3 perimeters, 20% infill. Print both halves in the same orientation for consistent colour/texture.</text>
+  </g>
+</svg>
